@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         # Change to `npm install` if you don't have package-lock.json
-        run: npm ci
+        run: npm install
 
       - name: Build (if applicable)
         run: |
